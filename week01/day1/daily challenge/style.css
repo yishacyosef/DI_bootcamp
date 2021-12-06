@@ -1,0 +1,10 @@
+ul {
+    list-style: none; font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif; text-align: center; font-size: 500%;
+    color: rgb(89, 221, 65)
+}
+p { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(8, 72, 156);
+}
