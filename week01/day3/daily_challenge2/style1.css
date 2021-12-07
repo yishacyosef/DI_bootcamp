@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 40px);
+    grid-gap: 5px;
+}
+.red{
+    background-color: red;
+    width: 40px; height: 40px;
+}
+.yellow{
+    background-color: rgb(240, 14, 14);
+    width: 40px; height: 40px;
+}
+.brown{
+    background-color: brown;
+    width: 40px; height: 40px;
+}
