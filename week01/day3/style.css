@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+
+section {
+  height :100vw;
+  width: 100vw;
+  border: 30px dotted rgba(98, 223, 146, 0.623);
+  display:flex; 
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  align-content: space-around;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: aliceblue;
+}
+
+.div1 {
+  padding: 20px;
+  border: 15px groove rgba(22, 22, 107, 0.733);
+  background-color: #e6ffff;
+  width: 50%; height: 50%;
+  color: rgba(22, 22, 107, 0.733);
+}
+
+.div2 {
+  padding: 20px;
+  border: 15px groove rgba(11, 216, 155, 0.856);
+  background-color: rgba(0, 140, 255, 0.835);
+  width: 50%; height: 50%;
+/* See what happens if width: 80%;   */
+  align-self: flex-end
+}
+
+
+Resources
