@@ -10,3 +10,5 @@ table{
 ul{
     list-style: none;
 }
+.bdr {
+    border-radius: 6px; overflow:hidden;}
