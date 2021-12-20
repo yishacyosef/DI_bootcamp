@@ -30,6 +30,6 @@ console.log(fruits);
 // Access and then console.log “Oranges”.
 
 let moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
-console.log("moreFruits"[0][0][1]);
+console.log(moreFruits[0][0]);
 
 ///don't know whats wrong here
