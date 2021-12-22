@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    background-color:lightgray;
+    width:100vw;
+    margin-top: 20px;
+}
+#button{
+    grid-area: "y";
+}
+
+#pallet{
+    display:grid;
+    width: 20%;
+    height: 600px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8,1fr);    
+    grid-gap: 5px;
+    padding: 5px;
+    grid-area: yyyy;
+}
+
+#canvas{
+    display: grid;
+    width: 80%;
+    grid-template-rows: repeat(24, 1fr);
+    grid-template-columns: repeat(60, 1fr);
+    grid-gap: 1px;
+    border: 2px solid black;
+}
+
