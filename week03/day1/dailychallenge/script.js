@@ -27,3 +27,5 @@ let myPlanets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter",
     realPlanets.style.backgroundColor = colors[i];
     planetDiv.appendChild(myPlanets);
   }
+
+  //I don't know what's wrong here.
