@@ -21,7 +21,8 @@ class Video {
         this.time = time;
     }
     watch(){
-       console.log(this.uploader, "watched all", this.time, "of", this.title);
+       console.log(`${uploader} watched all ${time} of ${title}`);
+       return
     }
 }
 
