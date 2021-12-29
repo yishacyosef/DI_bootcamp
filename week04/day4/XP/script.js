@@ -50,7 +50,7 @@ Excepted output: [ [ 'user1', 36546 ], [ 'user2', 185666 ], [ 'user3', 180630 ] 
 
 const nameId = Object.entries(users);
 console.log(nameId);
-let doppel = nameId.filter(idNum => idNum[1] === Number);
+let doppel = nameId.filter(idNum => idNum.typeof === "Number"));
 console.log(doppel);
 /*
 

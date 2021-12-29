@@ -13,3 +13,17 @@ Bonus: Use an array to store data for five Video instances (ie. title, uploader,
 Think of the best data structure to save this information within the array.
 Bonus: Loop through the array to instantiate those instances.
 */
+
+class Video {
+    constructor(title, uploader, time){
+        this.title = title;
+        this.uploader = uploader;
+        this.time = time;
+    }
+    watch(){
+       console.log(this.uploader, "watched all", this.time, "of", this.title);
+    }
+}
+
+let User1 = new Video("old movie", "David", 565653);
+let User2 = new Video("new Movie", "Shlomo", 565656);
