@@ -24,3 +24,23 @@ compareToTen(15)
 compareToTen(8)
   .then(result => console.log(result))
   .catch(error => console.log(error))
+
+/*Exercise 2 : Promises
+Instructions
+Create a promise that resolves itself in 4 seconds and returns a “success” string.
+Read about Promise.resolve() and Promise.reject().
+How can you make your promise from part 1 shorter using Promise.resolve() and console.log “success”?
+Add code to catch errors and console.log ‘Ooops something went wrong’.
+*/
+
+let gift = new Promise.resolve(setTimeout(resolve , 4000));
+
+
+/*
+Exercise 3 : Resolve & Reject
+Instructions
+Use Promise.resolve(value) to create a promise that will resolve itself with a value of 3.
+Use Promise.reject(error) to create a promise that will reject itself with the string “Boo!”
+*/
+let resolveP = Promise.resolve(3);
+let rejectP = Promise.reject('boo!');
