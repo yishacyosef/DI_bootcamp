@@ -8,9 +8,9 @@ argument is less or greater than 10.
 function compareToTen(number){
     let promise1 = new Promise(function (resolve, reject) {
         if (number >= 10) {
-            resolve(number, "is greater than 10, succes!");
+            resolve(`${number}, is greater than 10, succes!`);
         } else {
-            reject(number, "is less than 10, error!");
+            reject(`${number}, is less than 10, error!`);
         }
     });
     return promise1;
