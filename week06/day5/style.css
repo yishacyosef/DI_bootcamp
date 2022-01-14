@@ -13,6 +13,7 @@ font-weight: 700;
 text-align: center;
 letter-spacing: -0.05em;
 font-size: calc(7vw + 2rem);
+margin-bottom: -20px;
 }
 
 .task-list{
@@ -32,4 +33,20 @@ font-size: calc(7vw + 2rem);
 .to-do-title:hover{
     font-size: 60px;
     color: skyblue;
+}
+
+#type{
+    font-family: 'Ubuntu';
+    font-weight: 300;
+    font-style: italic;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid currentColor;
+    color: inherit;
+    font-size: inherit;
+    outline: none;
+    transition: border-bottom 140ms ease-in;
+}
+#type:focus{
+    border-bottom-width: 2px;
 }
