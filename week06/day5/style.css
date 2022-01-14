@@ -3,24 +3,25 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     color: rgb(255, 235, 221);
-
-    
-
 }
 
 .head1{
-font-weight: 700;  
-text-align: center;
-letter-spacing: -0.05em;
-font-size: calc(7vw + 2rem);
-margin-bottom: -20px;
+    font-weight: 700;  
+    text-align: center;
+    letter-spacing: -0.05em;
+    font-size: calc(7vw + 2rem);
+    margin-bottom: -20px;
 }
 
-.task-list{
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
+.todo-add{
+    margin-left: 100px;    
+    display: flex;    
+    justify-content: center; 
     gap: 10px;
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 60%;
+    height: 200px;
+    text-align: center;
 }
 
 .to-do-title{
@@ -29,12 +30,6 @@ margin-bottom: -20px;
     font-style: italic;
     font-weight: 300;
 }
-
-.to-do-title:hover{
-    font-size: 60px;
-    color: skyblue;
-}
-
 #type{
     font-family: 'Ubuntu';
     font-weight: 300;
@@ -42,7 +37,7 @@ margin-bottom: -20px;
     background-color: transparent;
     border: 0;
     border-bottom: 1px solid currentColor;
-    color: inherit;
+    color: rgb(21, 250, 90);
     font-size: inherit;
     outline: none;
     transition: border-bottom 140ms ease-in;
@@ -50,3 +45,20 @@ margin-bottom: -20px;
 #type:focus{
     border-bottom-width: 2px;
 }
+
+.bt{
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font-size: 1rem;
+    transition: opacity 150ms ease-in;
+}
+
+.bt:hover{
+    font-weight: 700;
+    opacity: .7;
+    color: rgb(21, 250, 90);
+}
+

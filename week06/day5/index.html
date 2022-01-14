@@ -9,24 +9,20 @@
 <body>
     <h1 class= "head1">Palador app</h1>
     <h2 class="to-do-title">To do list</h2>
-        <div class="task-list">
-            <div class="first-task"></div>
-                <div class="todo-add">
-                <label for="task1">todo</label>
-                    <input type="checkbox"id="check"/>
-                    <button class = "edit-button">Edit task</button>
-                    <button class="delete-button">Delete task</button>
-                    <span class= "checkbox"></span>
-                </div>
+        
+        <div class="todo-add">
+            <div class= "checkbox">todo<input type="checkbox"id="check"/></div>
+            <button class = "bt edit">Edit task</button>
+            <button class="bt delete">Delete task</button>
+                
             </div>
-        </div>
         <div class="task-insert"></div>
         <div class="delete"></div>
     <div class= "create">
         <form action="index.html">
             <input type="text" class="new-task" placeholder="Type a new task" aria-label="Type a new task" id="type">
-            <button class = "button1" aria-label="button of create">+ to-do list</button>
-            <button class="deleteAll-button">Delete all</button>
+            <button class = "bt create" aria-label="button of create">+ to-do list</button>
+            <button class="bt deleteAll">Delete all</button>
         </form>
     </div>
     <script src="script.js"></script>
