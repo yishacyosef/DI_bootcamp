@@ -10,6 +10,7 @@ Write a query to get unique departments ID from the employee table (ie. without 
 SELECT DISTINCT department_id
 FROM employees;
 
+
 Write a query to get the details of all employees from the employee table, do so in descending order by first name.
 
 Write a query to get the names (first_name, last_name), salary and 15% of salary as PF (ie. alias) for all the employees.

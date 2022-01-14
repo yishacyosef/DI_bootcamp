@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(66, 167, 145);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 235, 221);
+
+    
+
+}
+
+.head1{
+font-weight: 700;  
+text-align: center;
+letter-spacing: -0.05em;
+font-size: calc(7vw + 2rem);
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 10px;
+}
+
+.to-do-title{
+    text-align: center;
+    font-size: calc(4vw + 1rem);
+    font-style: italic;
+    font-weight: 300;
+}
+
+.to-do-title:hover{
+    font-size: 60px;
+    color: skyblue;
+}
