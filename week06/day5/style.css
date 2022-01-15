@@ -36,7 +36,7 @@ body{
     font-weight: 300;
     font-style: italic;
     background-color: transparent;
-    width: 200%;
+    width: 100%;
     border: 0;
     border-bottom: 1px solid currentColor;
     color: rgb(21, 250, 90);
@@ -95,10 +95,10 @@ body{
     grid-area: finish;
 }
 
-#desc{
+.type-desc{
     grid-area: des;
 }
 
-#type{
+.type-new{
     grid-area: new;
 }
