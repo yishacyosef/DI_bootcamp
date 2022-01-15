@@ -45,7 +45,7 @@ body{
     transition: border-bottom 140ms ease-in;
 
 }
-.new:focus{
+.new-task:focus{
     border-bottom-width: 2px;
 }
 
