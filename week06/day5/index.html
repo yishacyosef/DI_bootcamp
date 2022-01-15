@@ -10,19 +10,37 @@
     <h1 class= "head1">Palador app</h1>
     <h2 class="to-do-title">To do list</h2>
         
-        <div class="todo-add">
-            <div class= "checkbox">todo<input type="checkbox"id="check"/></div>
+    <div class="todo-add">
+            <div class= "checkbox">todo</div>
+            <input type="checkbox"id="check"/>
             <button class = "bt edit">Edit task</button>
-            <button class="bt delete">Delete task</button>
-                
-            </div>
+            <button class="bt delete">Delete task</button>   
+                  
+    </div>
         <div class="task-insert"></div>
         <div class="delete"></div>
     <div class= "create">
-        <form action="index.html">
-            <input type="text" class="new-task" placeholder="Type a new task" aria-label="Type a new task" id="type">
-            <button class = "bt create" aria-label="button of create">+ to-do list</button>
-            <button class="bt deleteAll">Delete all</button>
+        <form action="index.html" id="creativeForm">
+            <div>
+                <input type="text" class="new-task" placeholder="Type a new task name" aria-label="Type a new task" id="type">
+            </div>
+            <div>
+                <input type="text" class="new-task" placeholder="Type the Task's description" aria-label="Type the Task's description" id="desc">
+            </div>
+            <div class="start">
+                <label for="start-date">Start date and time</label>
+                <input type="datetime-local">
+            </div>
+            <div class="finish">
+                <label for="finish-date">Finish date and time</label>
+                <input type="datetime-local">
+            </div>
+            <div class="createbt">
+                <button class = "bt" aria-label="button of add">+ to-do list</button>
+            </div>
+            <div class="deleteAll">
+                <button class= "bt">Delete all</button>
+            </div>  
         </form>
     </div>
     <script src="script.js"></script>
