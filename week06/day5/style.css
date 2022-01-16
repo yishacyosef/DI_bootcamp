@@ -102,3 +102,11 @@ body{
 .type-new{
     grid-area: new;
 }
+.check{
+    cursor: pointer;
+    color: transparent;
+}
+
+[type="checkbox"]:checked{
+    opacity: 0.4; 
+}
