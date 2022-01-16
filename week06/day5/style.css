@@ -39,7 +39,7 @@ body{
     width: 100%;
     border: 0;
     border-bottom: 1px solid currentColor;
-    color: rgb(21, 250, 90);
+    color: rgb(66, 167, 145);
     font-size: inherit;
     outline: none;
     transition: border-bottom 140ms ease-in;
@@ -65,7 +65,7 @@ body{
     color: rgba(21, 250, 90, 0.527);
 }
 #creativeForm{
-    color: rgb(21, 250, 90);
+    color: rgb(66, 167, 145);
     margin: 0 auto;
     display: grid;
     grid-template-areas: "new new new"
@@ -74,7 +74,7 @@ body{
                         "finish finish finish"
                         "add . delete";
     grid-gap: 20px;
-    background-color: rgb(235, 201, 51);
+    background-color: rgb(255, 235, 221);
     width: 50vw;
     padding: 10px;
 }
