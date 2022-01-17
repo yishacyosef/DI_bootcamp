@@ -104,9 +104,4 @@ body{
 }
 .check{
     cursor: pointer;
-    color: transparent;
-}
-
-[type="checkbox"]:checked{
-    opacity: 0.4; 
 }

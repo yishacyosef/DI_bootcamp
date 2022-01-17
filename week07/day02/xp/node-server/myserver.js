@@ -8,8 +8,8 @@ Your server should run on http://localhost:3000/
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end('<h1>This is my first response</h1>')
-    res.end('<h1>This is my second response</h1>')
+    res.write('<h1>This is my first response</h1>')
+    res.write('<h1>This is my second response</h1>')
     res.end('<p>This is my third response</p>')
   })
 
