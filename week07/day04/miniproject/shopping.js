@@ -1,8 +1,12 @@
-const express = require('express');
-const app = express();
+const exp = require('express');
+const app = exp();
 
-app.get('/', (req, res) => res.send('Hello World!'))
 console.log('listening...');
 
-app.listen(3000)
+const bp = require('body-parser')
+const fs = require('fs');
 
+app.use(bp.json());
+app.use('/',exp.static(__dirname));
+
+app.post('/',(req,res) => {
