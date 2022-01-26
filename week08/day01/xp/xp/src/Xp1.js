@@ -1,7 +1,3 @@
-/*Instructions
-Create an element without JSX and render it. 
-The element should be an <h1> with the content “I do not use JSX”
-*/
 
 import React from 'react';
 import ReactDOM from 'react-dom';
