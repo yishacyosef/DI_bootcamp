@@ -14,46 +14,47 @@ import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Header() {
-  return<div className='header'>
-      <div className="header__left"></div>
-        <FacebookRoundedIcon color ="primary" sx={{fontSize: 40}}/>
-        <div className="header__input"></div>
-        <SearchIcon/>
-        <input type="text" />
-      <div className="header__middle"></div>
-        <div className="header__option"></div>
-            <HomeIcon fontSize="large"/>
-        <div className="header__option"></div>
-            <FlagIcon fontSize="large"/>
-        <div className="header__option"></div>
-            <SubscriptionsOutlinedIcon fontSize="large"/>
-        <div className="header__option"></div>
-            <StorefrontOutlinedIcon fontSize="large"/>
-        <div className="header__option"></div>
-            <SupervisedUserCircleIcon fontSize="large"/>  
+  return (
+    <div className='header'>
+        <div className="header__left">
+            <FacebookRoundedIcon color ="primary" sx={{fontSize: 40}}/>
+            <div className="header__input"></div>
+            <SearchIcon/>
+            <input type="text" />
+        </div>
+        <div className="header__middle">
+            <div className="header__option"></div>
+                <HomeIcon fontSize="large"/>
+            <div className="header__option"></div>
+                <FlagIcon fontSize="large"/>
+            <div className="header__option"></div>
+                <SubscriptionsOutlinedIcon fontSize="large"/>
+            <div className="header__option"></div>
+                <StorefrontOutlinedIcon fontSize="large"/>
+            <div className="header__option"></div>
+                <SupervisedUserCircleIcon fontSize="large"/>  
+        </div>
+        <div className="header__right">
+            <div className="header__info"></div>
+                <Avatar/>
+                <h4>yishac</h4>
+        
 
-      <div className="header__right">
-          <div className="header__info"></div>
-            <Avatar/>
-            <h4>yishac</h4>
-      </div>
-
-      <IconButton>
-        <AddIcon/>
-      </IconButton>
-      <IconButton>
-        <ForumIcon/>
-      </IconButton>
-      <IconButton>
-        <NotificationsActiveIcon/>
-      </IconButton>
-      <IconButton>
-        <ExpandMoreIcon/>
-      </IconButton>
-          
-          
-      
-  </div>
+        <IconButton>
+            <AddIcon/>
+        </IconButton>
+        <IconButton>
+            <ForumIcon/>
+        </IconButton>
+        <IconButton>
+            <NotificationsActiveIcon/>
+        </IconButton>
+        <IconButton>
+            <ExpandMoreIcon/>
+        </IconButton>
+        </div>
+    </div>
+  )
 }
 
 export default Header;
