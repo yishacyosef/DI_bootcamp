@@ -75,6 +75,6 @@
     color: #2e81f2;
 }
 
-.header__option--active >{
+.header__option--active{
     border-bottom: 4px solid #2e81f2
 }

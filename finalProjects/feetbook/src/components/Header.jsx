@@ -22,11 +22,12 @@ function Header() {
             <FacebookRoundedIcon color ="primary" sx={{fontSize: 40}}/>
                 <div className="header__input">
                 <SearchIcon/>
-                <input type="text" />
+                <input type="text" placeholder='Search Footbook'/>
                 </div>
         </div>
         <div className="header__middle">
-            <div className="header__option header__option--active">
+            <div className="header__option 
+            header__option--active">
                 <HomeIcon fontSize="large"/>
             </div>
             <div className="header__option">
