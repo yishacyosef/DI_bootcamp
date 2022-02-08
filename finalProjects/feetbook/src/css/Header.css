@@ -14,12 +14,49 @@
     justify-content: space-evenly;
 }
 
+.header__middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
 .header__input{
     display: flex;
     align-items: center;
     background-color: #eff2f4;
     padding: 10px;
     margin-left: 10px ;
-    border-radius: 33px;
+    border-radius: 999px;
 }
 
+.header__input > input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header__option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.header__option > .MuiSvgIcon-root {
+    color: gray;
+}
+.header__option:hover{
+    background-color: #eff2f4;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header__info{
+    display: flex;
+    align-items: center;
+}
+
+.header__info > h4 {
+    margin-left: 10px;
+}

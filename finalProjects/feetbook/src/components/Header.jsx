@@ -12,6 +12,8 @@ import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import SvgIcon from '@mui/material/SvgIcon';
+
 
 function Header() {
   return (
@@ -24,16 +26,21 @@ function Header() {
                 </div>
         </div>
         <div className="header__middle">
-            <div className="header__option"></div>
+            <div className="header__option">
                 <HomeIcon fontSize="large"/>
-            <div className="header__option"></div>
+            </div>
+            <div className="header__option">
                 <FlagIcon fontSize="large"/>
-            <div className="header__option"></div>
+            </div>
+            <div className="header__option">
                 <SubscriptionsOutlinedIcon fontSize="large"/>
-            <div className="header__option"></div>
+            </div>
+            <div className="header__option">
                 <StorefrontOutlinedIcon fontSize="large"/>
-            <div className="header__option"></div>
-                <SupervisedUserCircleIcon fontSize="large"/>  
+            </div>
+            <div className="header__option">
+                <SupervisedUserCircleIcon fontSize="large"/> 
+            </div>
         </div>
         <div className="header__right">
             <div className="header__info"></div>
