@@ -18,9 +18,10 @@ function Header() {
     <div className='header'>
         <div className="header__left">
             <FacebookRoundedIcon color ="primary" sx={{fontSize: 40}}/>
-            <div className="header__input"></div>
-            <SearchIcon/>
-            <input type="text" />
+                <div className="header__input">
+                <SearchIcon/>
+                <input type="text" />
+                </div>
         </div>
         <div className="header__middle">
             <div className="header__option"></div>
