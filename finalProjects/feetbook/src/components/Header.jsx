@@ -26,7 +26,7 @@ function Header() {
                 </div>
         </div>
         <div className="header__middle">
-            <div className="header__option">
+            <div className="header__option header__option--active">
                 <HomeIcon fontSize="large"/>
             </div>
             <div className="header__option">
@@ -43,11 +43,10 @@ function Header() {
             </div>
         </div>
         <div className="header__right">
-            <div className="header__info"></div>
+            <div className="header__info">
                 <Avatar/>
                 <h4>yishac</h4>
-        
-
+            </div>
         <IconButton>
             <AddIcon/>
         </IconButton>
