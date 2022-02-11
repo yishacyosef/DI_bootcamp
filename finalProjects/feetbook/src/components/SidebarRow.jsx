@@ -1,10 +1,13 @@
+import { Avatar } from '@mui/material'
 import React from 'react'
 import '../css/SidebarRow.css'
 
-function SidebarRow({ src, icon, title }) {
+function SidebarRow({ src, Icon, title }) {
   return (
     <div className='sidebarRow'>
-      <p>{title}</p>
+      {src && <Avatar src ={src} />}
+      {Icon && <Icon/>}
+      <h4>{title}</h4>
     </div>
   )
 }
