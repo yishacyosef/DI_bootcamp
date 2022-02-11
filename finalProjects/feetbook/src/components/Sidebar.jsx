@@ -12,7 +12,7 @@ import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 function Sidebar() {
     return(
         <div className='sidebar'>
-            <SidebarRow src= {user.photoURL} title= {user.displayName}/>
+            <SidebarRow title='Yishac'/>
             <SidebarRow Icon ={LocalHospitalIcon} title= "COVID-19 Information Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title= 'Pages' />
             <SidebarRow Icon={PeopleIcon} title= 'Friends' />
