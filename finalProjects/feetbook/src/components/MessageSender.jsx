@@ -17,7 +17,7 @@ function MessageSender() {
             <form>
                 <input type="text" 
                     className='messageSender__input'
-                    placeholder={`What's on your mind`} />
+                    placeholder={`What's on your mind?`} />
                 <input type="text"
                     placeholder='Image URL (Optional)' />
                 <button onClick={handleSubmit} type = 'submit'>
