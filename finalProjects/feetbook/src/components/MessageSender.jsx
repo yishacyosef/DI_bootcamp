@@ -1,5 +1,5 @@
 import { Avatar } from '@mui/material'
-import React from 'react'
+import React, { useState } from 'react'
 import '../css/MessageSender.css'
 import VideocamIcon from '@mui/icons-material/Videocam';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
@@ -7,18 +7,30 @@ import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 
 
 function MessageSender() {
+    const [input, setInput] = useState ('');
+    const [imageUrl, setImageUrl] = useState ('');
+    
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        setInput ('');
+        setImageUrl('');
     }
   return (
     <div className='messageSender'>
         <div className='messageSender__top'>
             <Avatar />
             <form>
-                <input type="text" 
+                <input 
+                    value={input}
+                    onChange = {(e) => setInput(e.target.value)}
+                    type="text" 
                     className='messageSender__input'
                     placeholder={`What's on your mind?`} />
-                <input type="text"
+                <input 
+                    value ={imageUrl}
+                    onChange = {(e) => setImageUrl(e.target.value)}
+                    type="text"
                     placeholder='Image URL (Optional)' />
                 <button onClick={handleSubmit} type = 'submit'>
                     Submit

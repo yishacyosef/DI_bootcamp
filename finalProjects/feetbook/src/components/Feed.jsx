@@ -1,13 +1,15 @@
 import React from 'react'
 import "../css/Feed.css"
 import StoryReel from './StoryReel';
-import MessageSender from './MessageSender'
+import MessageSender from './MessageSender';
+import Post from './Post'
 
 function Feed() {
   return (
     <div className='feed'>
         <StoryReel />
-      <MessageSender />
+        <MessageSender />
+        <Post/>
     </div>
   )
 }
