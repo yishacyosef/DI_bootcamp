@@ -9,7 +9,13 @@ function Feed() {
     <div className='feed'>
         <StoryReel />
         <MessageSender />
-        <Post/>
+        <Post
+        profilePic={profilePic}
+        message = {message}
+        timestamp = {timestamp}
+        username = {username}
+        image = {image}
+        />
         <Post/>
         <Post/>
         
