@@ -10,11 +10,11 @@ function Feed() {
         <StoryReel />
         <MessageSender />
         <Post
-        profilePic={profilePic}
-        message = {message}
-        timestamp = {timestamp}
-        username = {username}
-        image = {image}
+        // profilePic={profilePic}
+        // message = {message}
+        // timestamp = {timestamp}
+        // username = {username}
+        // image = {image}
         />
         <Post/>
         <Post/>
