@@ -6,7 +6,10 @@ import Feed from "./components/Feed"
 import Widgets from "./components/Widgets";
 
 
+//BEM naming convention
+
 function App() {
+  const user = nulll;
   return (
     <div className="app">
       <Header/>
