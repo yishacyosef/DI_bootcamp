@@ -12,13 +12,22 @@ function App() {
   const user = nulll;
   return (
     <div className="app">
-      <Header/>
-      <div className="app__body">  
-      <Sidebar />
-      <Feed />
-      <Widgets />
-      {/* App body*/}
-      </div>
+      {!user ? (
+        <h1>Login</h1>
+      ) : (
+      <>
+        <Header />
+
+
+        <div className="app__body">  
+        <Sidebar />
+        <Feed />
+        <Widgets />
+        {/* App body*/}
+        </div>
+      
+      </>
+  )}
     </div>
   );
 }
