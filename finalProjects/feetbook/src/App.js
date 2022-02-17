@@ -9,7 +9,7 @@ import Widgets from "./components/Widgets";
 //BEM naming convention
 
 function App() {
-  const user = nulll;
+  const user = null;
   return (
     <div className="app">
       {!user ? (
