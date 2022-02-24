@@ -21,9 +21,8 @@ function App() {
           <Sidebar />
           <Feed />
           <Widgets />
-          {/* App body*/}
         {/* App body*/}
-
+{/* App body*/}
         </div>
       
       </>
