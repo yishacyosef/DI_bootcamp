@@ -22,7 +22,6 @@ function App() {
           <Feed />
           <Widgets />
         {/* App body*/}
-{/* App body*/}
         </div>
       
       </>
