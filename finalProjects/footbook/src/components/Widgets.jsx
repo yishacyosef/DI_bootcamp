@@ -13,9 +13,6 @@ function widgets() {
         allowTransparency = 'true'
         allow='encrypted-media'
         >
-        
-        
-
         </iframe>
     </div>
   )
