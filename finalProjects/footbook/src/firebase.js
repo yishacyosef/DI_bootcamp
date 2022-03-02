@@ -1,9 +1,11 @@
 
 // Import the functions you need from the SDKs you need
 
-import firebase, { initializeApp } from "firebase/app";
+import { initializeApp } from "firebase/app";
 import 'firebase/auth';
 import { getAnalytics } from "firebase/analytics";
+// import { getFirestore } from 'firebase/firestore/lite'
+import { getAuth } from 'firebase/auth'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -12,7 +14,6 @@ import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: "AIzaSyDpH-mlBI2M4_Iia8lff8h3Hgu-bDeNrW0",
   authDomain: "footbook-75b38.firebaseapp.com",
-  databaseURL: "https://footbook-75b38-default-rtdb.europe-west1.firebasedatabase.app/",
   projectId: "footbook-75b38",
   storageBucket: "footbook-75b38.appspot.com",
   messagingSenderId: "900835082116",
@@ -20,15 +21,12 @@ const firebaseConfig = {
   measurementId: "G-YH6EE5NZQM"
 };
 
-// Initialize Firebase
+// // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-
-  const firebaseApp = firebase.initializeApp(firebaseConfig);
-  const db = firebaseApp.firestore();
-  const auth = firebase.auth();
-  const provider =  new firebase.auth.GoogleAuthProvider();
+// const db = getFirestore(app);
+export const auth = getAuth(app);
+// const provider =  new app.auth.GoogleAuthProvider();
  
-  export { auth, provider };
-//   export default db;
-  export default app;
+//   export { auth, provider };
+// //   export default db;
