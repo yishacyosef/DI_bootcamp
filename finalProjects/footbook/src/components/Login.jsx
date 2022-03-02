@@ -2,8 +2,10 @@ import { Button } from '@mui/material';
 import React from 'react';
 import { auth, provider } from '../firebase';
 import '../css/Login.css';
+import { useStateValue } from '../StateProvider';
 
 function Login() {
+  const [state, dispatch] = useStateValue();
 
     const signIn =() => {
        auth
