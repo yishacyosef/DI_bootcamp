@@ -9,7 +9,7 @@ import { useStateValue } from './StateProvider';
 //BEM naming convention
 
 function App() {
-  const [{user}, dispatch] = useStateValue();
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="app">
       {!user ? (
@@ -17,8 +17,9 @@ function App() {
       ) : (
       <>
         <Header />
+        <Sidebar />
         <div className="app__body">  
-          <Sidebar />
+          
           <Feed />
           <Widgets />
         </div>
