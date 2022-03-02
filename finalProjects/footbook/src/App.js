@@ -5,11 +5,11 @@ import Sidebar from "./components/Sidebar";
 import Feed from "./components/Feed"
 import Widgets from "./components/Widgets";
 import Login from "./components/Login"
-
+import { useStateValue } from './StateProvider'
 //BEM naming convention
 
 function App() {
-  const user = null;
+  const [{user}, dispatch] = useStateValue();
   return (
     <div className="app">
       {!user ? (
@@ -21,7 +21,6 @@ function App() {
           <Sidebar />
           <Feed />
           <Widgets />
-        {/* App body*/}
         </div>
       
       </>

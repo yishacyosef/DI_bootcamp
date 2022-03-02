@@ -10,9 +10,13 @@ import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
+
     return(
         <div className='sidebar'>
-            <SidebarRow title='Yishac'/>
+            <SidebarRow
+            src={user.photoURL} 
+            title={user.displayName}/>
             <SidebarRow Icon ={LocalHospitalIcon} title= "COVID-19 Information Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title= 'Pages' />
             <SidebarRow Icon={PeopleIcon} title= 'Friends' />
