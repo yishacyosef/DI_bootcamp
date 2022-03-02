@@ -8,6 +8,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
+import {useStateValue} from '../StateProvider';
 
 function Sidebar() {
     const [{ user }, dispatch] = useStateValue();

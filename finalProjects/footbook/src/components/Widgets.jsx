@@ -14,7 +14,7 @@ function widgets() {
         allow='encrypted-media'
         >
         </iframe>
-    </div>
+    </div> 
   )
 }
 

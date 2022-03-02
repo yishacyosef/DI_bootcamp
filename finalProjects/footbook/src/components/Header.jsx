@@ -12,7 +12,7 @@ import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { useStateValue } from './StateProvider';
+import { useStateValue } from '../StateProvider';
 
 function Header() {
     const [{ user }, dispatch] = useStateValue();
