@@ -17,9 +17,8 @@ function App() {
       ) : (
       <>
         <Header />
-        <Sidebar />
         <div className="app__body">  
-          
+          <Sidebar />
           <Feed />
           <Widgets />
         </div>
